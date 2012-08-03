@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionFulfillment.Web", "SubscriptionFulfillment.Web\SubscriptionFulfillment.Web.csproj", "{0BC0F094-7404-40EB-AAE5-E6DF8A01E89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionFulfillment.Processor", "SubscriptionFulfillment.Processor\SubscriptionFulfillment.Processor.csproj", "{317B5F0B-2DDD-4289-BB05-90305006D75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionFulfillment.Messages", "SubscriptionFulfillment.Messages\SubscriptionFulfillment.Messages.csproj", "{09FAA6CC-187D-4528-AC36-A7B4D55719F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionFulfillment.Integration.BlueToad", "SubscriptionFulfillment.Integration.BlueToad\SubscriptionFulfillment.Integration.BlueToad.csproj", "{191C8E41-43ED-4587-804B-37E1A4F96030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5BDA8130-A76F-4FB6-9EBC-8F94DE3F8641}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC0F094-7404-40EB-AAE5-E6DF8A01E89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC0F094-7404-40EB-AAE5-E6DF8A01E89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC0F094-7404-40EB-AAE5-E6DF8A01E89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC0F094-7404-40EB-AAE5-E6DF8A01E89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317B5F0B-2DDD-4289-BB05-90305006D75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317B5F0B-2DDD-4289-BB05-90305006D75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317B5F0B-2DDD-4289-BB05-90305006D75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317B5F0B-2DDD-4289-BB05-90305006D75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FAA6CC-187D-4528-AC36-A7B4D55719F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FAA6CC-187D-4528-AC36-A7B4D55719F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FAA6CC-187D-4528-AC36-A7B4D55719F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FAA6CC-187D-4528-AC36-A7B4D55719F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191C8E41-43ED-4587-804B-37E1A4F96030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191C8E41-43ED-4587-804B-37E1A4F96030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191C8E41-43ED-4587-804B-37E1A4F96030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191C8E41-43ED-4587-804B-37E1A4F96030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

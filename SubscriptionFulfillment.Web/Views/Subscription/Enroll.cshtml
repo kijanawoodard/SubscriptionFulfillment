@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Add Subscription";
+}
+
+<h2>Add Subscription</h2>
+@using(Html.BeginForm())
+{
+    <fieldset>
+        <legend>Subscriber Info</legend>
+        
+        <label>Name</label>
+        <input type="text" name="subscriberName"/>
+        
+        <br/><br/>
+        <button>Submit</button>
+    </fieldset>
+}
